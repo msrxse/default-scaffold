@@ -36,6 +36,9 @@ const todoItems = [
 ]
 
 export const handlers = [
+  http.get('/', () => {
+    return HttpResponse.json({})
+  }),
   http.get('/articles', () => {
     return HttpResponse.json(todoItems)
   }),

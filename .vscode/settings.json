@@ -63,7 +63,8 @@
   "search.exclude": {
     "**/*.code-search": true,
     "**/bower_components": true,
-    "**/node_modules": true
+    "**/node_modules": true,
+    "**/dist": true
   },
   "search.useIgnoreFiles": false,
   // Terminal
@@ -72,6 +73,7 @@
   "vsicons.dontShowNewVersionMessage": true,
   "workbench.colorTheme": "Noctis Obscuro",
   "workbench.editor.labelFormat": "medium",
+  "terminal.integrated.tabs.enabled": false,
   // "workbench.editor.showTabs": "none",
   "workbench.iconTheme": "vscode-icons",
   "workbench.sideBar.location": "right",

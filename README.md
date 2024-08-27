@@ -1,18 +1,14 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules. Uses Axios, react-query and MSW.
 
-To start development server:
+Vite should have started dev server, otherwise: To start development server:
 
 ```
 pnpm run dev
 ```
 
-Next, open your browser and visit http://localhost:5173/. The default React project will be running on port 5173.
-
-### Note:
-
-    if running `antfu.vite` and `antfu.browse-lite`, vite server will start itself at port 4000.
+Next, open your browser and visit http://localhost:4000/.
 
 ## Tests
 
